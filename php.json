@@ -16,6 +16,6 @@
     }
   ],
   "extends": [
-    "github>wyrihaximus/.github/.renovate:base"
+    "github>wyrihaximus/renovate-config:base"
   ]
 }
