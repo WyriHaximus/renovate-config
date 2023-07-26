@@ -30,6 +30,6 @@
     }
   ],
   "extends": [
-    "github>wyrihaximus/renovate-config:base"
+    "group:phpstan"
   ]
 }

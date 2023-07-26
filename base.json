@@ -1,14 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "labels": [
-    "Dependencies 📦"
-  ],
   "extends": [
     "config:base",
     ":widenPeerDependencies",
-    ":rebaseStalePrs",
-    ":prHourlyLimitNone",
-    ":prConcurrentLimitNone",
-    "group:phpstan"
+    ":rebaseStalePrs"
   ]
 }
