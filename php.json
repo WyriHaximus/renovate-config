@@ -7,11 +7,13 @@
   "packageRules": [
     {
       "managers": ["composer"],
-      "rangeStrategy": "in-range-only"
+      "rangeStrategy": "in-range-only",
+      "prPriority": 666
     },
     {
       "managers": ["composer"],
-      "rangeStrategy": "bump"
+      "rangeStrategy": "bump",
+      "prPriority": 13
     },
     {
       "managers": ["composer"],
@@ -26,7 +28,8 @@
       "matchPackagePatterns": [
         "^infection/infection$",
         "^roave/infection-static-analysis-plugin$"
-      ]
+      ],
+      "prPriority": 3
     },
     {
       "groupName": "PHPUnit",
