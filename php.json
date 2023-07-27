@@ -27,6 +27,18 @@
         "^infection/infection$",
         "^roave/infection-static-analysis-plugin$"
       ]
+    },
+    {
+      "groupName": "PHPUnit",
+      "matchDatasources": [
+        "packagist"
+      ],
+      "matchPackagePatterns": [
+        "^phpunit/phpunit$",
+        "^nunomaduro/collision$",
+        "^phpspec/prophecy-phpunit$",
+        "^ergebnis/phpunit-slow-test-detector$"
+      ]
     }
   ],
   "extends": [
