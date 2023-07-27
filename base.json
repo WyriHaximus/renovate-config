@@ -5,6 +5,7 @@
     "* 12-23/3 * * 0,6"
   ],
   "timezone": "Europe/Amsterdam",
+  "osvVulnerabilityAlerts": true,
   "extends": [
     "config:base",
     ":widenPeerDependencies",
