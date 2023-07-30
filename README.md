@@ -2,6 +2,38 @@
 
 Renovate shared config
 
+## Top level included presets
+
+These top level presets are used as a one-stop preset for 80%+ of packages that don't need anything fancy.
+
+| Name        | Usage                                                                |
+|-------------|----------------------------------------------------------------------|
+| default     | No recommended but includes all package rules                        |
+| php-package | For PHP packages using on public repos                               |
+| php-project | For PHP projects using on private repos with limited Actions credits |
+
+## Usage
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>WyriHaximus/renovate-config:php-package"
+  ]
+}
+```
+
+## Bottom level included presets
+
+These bottom level presets are to be used to created configurations for more advanced setups.
+
+| Name    | Usage                                                                                                                             |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------|
+| base    | Included scheduling, Europe/Amsterdam timezone, and some base extends                                                             |
+| package | No limitations to how often en how many PR's are created                                                                          |
+| project | Limits to one PR per how and 3 PR's total to prevent lots of rebasing across many PR's                                            |
+| php     | For PHP repositories including labels, a set of package rules, and grouping so certain groups of packages get updated all at once |
+
 ## License ##
 
 Copyright 2023 [Cees-Jan Kiewiet](http://wyrihaximus.net/)
