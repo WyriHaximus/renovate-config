@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>wyrihaximus/renovate-config:package",
+    "github>wyrihaximus/renovate-config:php-next"
+  ]
+}
