@@ -7,27 +7,27 @@
   "packageRules": [
     {
       "extends": [
-        "github>wyrihaximus/renovate-config:composer/in-range"
+        "github>wyrihaximus/renovate-config//composer/in-range"
       ]
     },
     {
       "extends": [
-        "github>wyrihaximus/renovate-config:composer/bump"
+        "github>wyrihaximus/renovate-config//composer/bump"
       ]
     },
     {
       "extends": [
-        "github>wyrihaximus/renovate-config:composer/do-not-update-php"
+        "github>wyrihaximus/renovate-config//composer/do-not-update-php"
       ]
     },
     {
       "extends": [
-        "github>wyrihaximus/renovate-config:composer/infection"
+        "github>wyrihaximus/renovate-config//composer/infection"
       ]
     },
     {
       "extends": [
-        "github>wyrihaximus/renovate-config:composer/phpunit"
+        "github>wyrihaximus/renovate-config//composer/phpunit"
       ]
     }
   ],
