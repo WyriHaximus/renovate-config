@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "extends": [
-        "github>wyrihaximus/renovate-config//composer/widen"
+        "github>wyrihaximus/renovate-config//composer/bump"
       ]
     },
     {

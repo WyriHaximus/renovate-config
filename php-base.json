@@ -1,0 +1,37 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "labels": [
+    "Dependencies 📦",
+    "PHP 🐘"
+  ],
+  "packageRules": [
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/in-range"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/do-not-update-php"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/infection"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/phpunit"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/psr"
+      ]
+    }
+  ],
+  "extends": [
+    "group:phpstan"
+  ]
+}
