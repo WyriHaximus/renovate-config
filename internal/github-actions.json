@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "labels": [
+    "Dependencies 📦",
+    "CI \uD83D\uDEA7"
+  ],
+  "packageRules": [
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//github-actions/bump"
+      ]
+    }
+  ]
+}

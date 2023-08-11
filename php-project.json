@@ -3,6 +3,6 @@
   "extends": [
     "github>wyrihaximus/renovate-config//internal/project",
     "github>wyrihaximus/renovate-config//internal/php",
-    "github>wyrihaximus/renovate-config//internal/php-package-rules"
+    "github>wyrihaximus/renovate-config//internal/github-actions"
   ]
 }
