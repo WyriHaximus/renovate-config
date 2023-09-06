@@ -29,6 +29,11 @@
       "extends": [
         "github>wyrihaximus/renovate-config//composer/psr"
       ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/react"
+      ]
     }
   ],
   "extends": [
