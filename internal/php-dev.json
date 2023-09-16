@@ -3,12 +3,12 @@
   "packageRules": [
     {
       "extends": [
-        "github>wyrihaximus/renovate-config//composer/bump"
+        "github>wyrihaximus/renovate-config//composer/php-base"
       ]
     },
     {
       "extends": [
-        "github>wyrihaximus/renovate-config//internal/php-base"
+        "github>wyrihaximus/renovate-config//internal/bump"
       ]
     }
   ],
