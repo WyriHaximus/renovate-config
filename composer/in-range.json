@@ -2,5 +2,5 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "managers": ["composer"],
   "rangeStrategy": "in-range-only",
-  "prPriority": 666
+  "prPriority": -666
 }
