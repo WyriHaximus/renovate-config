@@ -12,7 +12,7 @@
     },
     {
       "extends": [
-        "github>wyrihaximus/renovate-config//composer/php"
+        "github>wyrihaximus/renovate-config//composer/do-not-update-php"
       ]
     },
     {
