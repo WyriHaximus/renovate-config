@@ -8,6 +8,9 @@
     "^phpunit/phpunit$",
     "^nunomaduro/collision$",
     "^phpspec/prophecy-phpunit$",
-    "^ergebnis/phpunit-slow-test-detector$"
+    "^ergebnis/phpunit-slow-test-detector$",
+    "^wyrihaximus/async-test-utilities$",
+    "^wyrihaximus/react-phpunit-run-tests-in-fiber$",
+    "^wyrihaximus/test-utilities$"
   ]
 }
