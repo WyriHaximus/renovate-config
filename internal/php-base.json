@@ -37,6 +37,11 @@
     },
     {
       "extends": [
+        "github>wyrihaximus/renovate-config//composer/voku"
+      ]
+    },
+    {
+      "extends": [
         "github>wyrihaximus/renovate-config//composer/wyrihaximus-react"
       ]
     }
