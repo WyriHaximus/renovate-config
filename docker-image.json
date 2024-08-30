@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>wyrihaximus/renovate-config//internal/package",
+    "github>wyrihaximus/renovate-config//internal/php",
+    "github>wyrihaximus/renovate-config//internal/github-actions"
+  ]
+}
