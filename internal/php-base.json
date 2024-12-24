@@ -27,6 +27,11 @@
     },
     {
       "extends": [
+        "github>wyrihaximus/renovate-config//composer/phpstan"
+      ]
+    },
+    {
+      "extends": [
         "github>wyrihaximus/renovate-config//composer/psr"
       ]
     },
@@ -45,8 +50,5 @@
         "github>wyrihaximus/renovate-config//composer/wyrihaximus-react"
       ]
     }
-  ],
-  "extends": [
-    "group:phpstan"
   ]
 }
