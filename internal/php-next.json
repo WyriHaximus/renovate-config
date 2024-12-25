@@ -22,11 +22,6 @@
     },
     {
       "extends": [
-        "github>wyrihaximus/renovate-config//composer/infection"
-      ]
-    },
-    {
-      "extends": [
         "github>wyrihaximus/renovate-config//composer/phpunit"
       ]
     }

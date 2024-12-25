@@ -5,6 +5,8 @@
     "packagist"
   ],
   "matchPackagePatterns": [
+    "^infection/infection$",
+    "^roave/infection-static-analysis-plugin$",
     "^phpunit/phpunit$",
     "^nunomaduro/collision$",
     "^phpspec/prophecy-phpunit$",
