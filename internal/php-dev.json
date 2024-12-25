@@ -11,8 +11,5 @@
         "github>wyrihaximus/renovate-config//composer/bump"
       ]
     }
-  ],
-  "extends": [
-    "group:phpstan"
   ]
 }

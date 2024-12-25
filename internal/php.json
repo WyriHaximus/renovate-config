@@ -11,8 +11,5 @@
         "github>wyrihaximus/renovate-config//composer/widen"
       ]
     }
-  ],
-  "extends": [
-    "group:phpstan"
   ]
 }
