@@ -15,7 +15,7 @@
         "github>wyrihaximus/renovate-config//composer/react",
         "github>wyrihaximus/renovate-config//composer/voku",
         "github>wyrihaximus/renovate-config//composer/wyrihaximus-qa-tools",
-        "github>wyrihaximus/renovate-config//composer/wyrihaximus-react",
+        "github>wyrihaximus/renovate-config//composer/wyrihaximus-react"
       ]
     }
   ]
