@@ -7,14 +7,46 @@
   "packageRules": [
     {
       "extends": [
-        "github>wyrihaximus/renovate-config//composer/in-range",
-        "github>wyrihaximus/renovate-config//composer/do-not-update-php",
-        "github>wyrihaximus/renovate-config//composer/phpunit",
-        "github>wyrihaximus/renovate-config//composer/phpstan",
-        "github>wyrihaximus/renovate-config//composer/psr",
-        "github>wyrihaximus/renovate-config//composer/react",
-        "github>wyrihaximus/renovate-config//composer/voku",
-        "github>wyrihaximus/renovate-config//composer/wyrihaximus-qa-tools",
+        "github>wyrihaximus/renovate-config//composer/in-range"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/do-not-update-php"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/phpunit"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/phpstan"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/psr"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/react"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/voku"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/wyrihaximus-qa-tools"
+      ]
+    },
+    {
+      "extends": [
         "github>wyrihaximus/renovate-config//composer/wyrihaximus-react"
       ]
     }
