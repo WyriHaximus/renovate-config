@@ -12,11 +12,6 @@
     },
     {
       "extends": [
-        "github>wyrihaximus/renovate-config//composer/do-not-update-php"
-      ]
-    },
-    {
-      "extends": [
         "github>wyrihaximus/renovate-config//composer/phpunit"
       ]
     },
