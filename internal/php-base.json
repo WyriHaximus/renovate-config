@@ -32,6 +32,11 @@
     },
     {
       "extends": [
+        "github>wyrihaximus/renovate-config//composer/wyrihaximus-qa-tools"
+      ]
+    },
+    {
+      "extends": [
         "github>wyrihaximus/renovate-config//composer/wyrihaximus-react"
       ]
     }
