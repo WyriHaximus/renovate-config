@@ -2,6 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "managers": ["composer"],
   "rangeStrategy": "widen",
-  "matchPackagePrefixes": ["^wyrihaximus/react-$"],
+  "matchPackageNames": ["wyrihaximus/react-**"],
   "prPriority": 1337
 }

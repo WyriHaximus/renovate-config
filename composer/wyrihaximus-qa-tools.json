@@ -2,13 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "managers": ["composer"],
   "rangeStrategy": "bump",
-  "matchPackagePatterns": [
-    "^wyrihaximus/async-test-utilities$",
-    "^wyrihaximus/coding-standard$",
-    "^wyrihaximus/makefiles$",
-    "^wyrihaximus/phpstan-rules-wrapper$",
-    "^wyrihaximus/react-phpunit-run-tests-in-fiber$",
-    "^wyrihaximus/test-utilities$"
+  "matchPackageNames": [
+    "wyrihaximus/async-test-utilities",
+    "wyrihaximus/coding-standard",
+    "wyrihaximus/makefiles",
+    "wyrihaximus/phpstan-rules-wrapper",
+    "wyrihaximus/react-phpunit-run-tests-in-fiber",
+    "wyrihaximus/test-utilities"
   ],
   "prPriority": 9001
 }
