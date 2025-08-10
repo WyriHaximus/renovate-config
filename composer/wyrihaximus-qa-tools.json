@@ -9,5 +9,6 @@
     "^wyrihaximus/phpstan-rules-wrapper$",
     "^wyrihaximus/react-phpunit-run-tests-in-fiber$",
     "^wyrihaximus/test-utilities$"
-  ]
+  ],
+  "prPriority": 9001
 }
