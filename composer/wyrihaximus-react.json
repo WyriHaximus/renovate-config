@@ -2,6 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "managers": ["composer"],
   "rangeStrategy": "widen",
-  "matchPackageNames": ["wyrihaximus/react-**"],
+  "matchPackageNames": [
+    "wyrihaximus/react-**",
+    "!wyrihaximus/react-phpunit-run-tests-in-fiber"
+  ],
   "prPriority": 1337
 }
