@@ -3,6 +3,7 @@
   "extends": [
     "github>wyrihaximus/renovate-config//internal/package",
     "github>wyrihaximus/renovate-config//internal/php-dev",
+    "github>wyrihaximus/renovate-config//composer/bump",
     "github>wyrihaximus/renovate-config//internal/github-actions"
   ]
 }

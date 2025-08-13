@@ -5,11 +5,6 @@
       "extends": [
         "github>wyrihaximus/renovate-config//internal/php-base"
       ]
-    },
-    {
-      "extends": [
-        "github>wyrihaximus/renovate-config//composer/widen"
-      ]
     }
   ]
 }
