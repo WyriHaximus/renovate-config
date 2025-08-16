@@ -7,7 +7,7 @@
   "timezone": "Europe/Amsterdam",
   "osvVulnerabilityAlerts": true,
   "branchNameStrict": true,
-  "branchTopic": "{{{depNameSanitized}}}-{{{newVersion}}}{{#if isLockfileUpdate}}-lockfile{{/if}}",
+  "branchTopic": "{{#if isLockfileUpdate}}lockfile{{else}}update{{/if}}/{{{datasource}}}/{{{depNameSanitized}}}/{{{newVersion}}}",
   "extends": [
     "config:base",
     ":widenPeerDependencies",
