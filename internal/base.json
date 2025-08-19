@@ -12,6 +12,7 @@
     "config:base",
     ":widenPeerDependencies",
     ":rebaseStalePrs",
-    "helpers:pinGitHubActionDigests"
+    "helpers:pinGitHubActionDigests",
+    "helpers:pinGitHubActionDigestsToSemver"
   ]
 }
