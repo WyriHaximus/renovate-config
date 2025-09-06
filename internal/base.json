@@ -9,6 +9,7 @@
   "osvVulnerabilityAlerts": true,
   "branchNameStrict": true,
   "branchTopic": "{{#if isLockfileUpdate}}lockfile{{else}}update{{/if}}/{{{datasource}}}/{{{depNameSanitized}}}/{{{newVersion}}}",
+  "fetchChangeLogs": "branch",
   "extends": [
     "config:base",
     ":widenPeerDependencies",
