@@ -5,6 +5,7 @@
     "* 12-23/3 * * 0,6"
   ],
   "timezone": "Europe/Amsterdam",
+  "configMigration": true,
   "osvVulnerabilityAlerts": true,
   "branchNameStrict": true,
   "branchTopic": "{{#if isLockfileUpdate}}lockfile{{else}}update{{/if}}/{{{datasource}}}/{{{depNameSanitized}}}/{{{newVersion}}}",
