@@ -4,6 +4,7 @@
   "configMigration": true,
   "osvVulnerabilityAlerts": true,
   "branchNameStrict": true,
+  "rollbackPrs": true,
   "branchTopic": "{{#if isLockfileUpdate}}lockfile{{else}}update{{/if}}/{{{datasource}}}/{{{depNameSanitized}}}/{{{newVersion}}}",
   "fetchChangeLogs": "branch",
   "extends": [
