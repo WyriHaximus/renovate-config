@@ -12,11 +12,6 @@
       "prPriority": 13
     },
     {
-      "managers": ["composer"],
-      "matchPackageNames": ["php"],
-      "enabled": false
-    },
-    {
       "groupName": "Infection packages",
       "matchDatasources": [
         "packagist"
