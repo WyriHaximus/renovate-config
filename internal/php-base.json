@@ -12,6 +12,16 @@
     },
     {
       "extends": [
+        "github>wyrihaximus/renovate-config//composer/wyrihaximus-qa-tools"
+      ]
+    },
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//composer/wyrihaximus-react"
+      ]
+    },
+    {
+      "extends": [
         "github>wyrihaximus/renovate-config//composer/phpunit"
       ]
     },
@@ -33,16 +43,6 @@
     {
       "extends": [
         "github>wyrihaximus/renovate-config//composer/voku"
-      ]
-    },
-    {
-      "extends": [
-        "github>wyrihaximus/renovate-config//composer/wyrihaximus-qa-tools"
-      ]
-    },
-    {
-      "extends": [
-        "github>wyrihaximus/renovate-config//composer/wyrihaximus-react"
       ]
     }
   ]
