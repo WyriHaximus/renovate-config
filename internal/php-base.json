@@ -42,6 +42,11 @@
     },
     {
       "extends": [
+        "github>wyrihaximus/renovate-config//composer/mammatus"
+      ]
+    },
+    {
+      "extends": [
         "github>wyrihaximus/renovate-config//composer/voku"
       ]
     }
