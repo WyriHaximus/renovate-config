@@ -8,6 +8,7 @@
     "^wyrihaximus/coding-standard$",
     "^wyrihaximus/compress-test-utilities$",
     "^wyrihaximus/makefiles$",
+    "^wyrihaximus/phpstan-no-safe$",
     "^wyrihaximus/phpstan-rules-wrapper$",
     "^wyrihaximus/react-phpunit-run-tests-in-fiber$",
     "^wyrihaximus/test-utilities$"
