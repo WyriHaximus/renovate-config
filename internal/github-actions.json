@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "labels": [
-    "Dependencies 📦",
+  "addLabels": [
     "CI \uD83D\uDEA7"
   ],
   "packageRules": [

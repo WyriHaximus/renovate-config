@@ -12,6 +12,7 @@
     ":widenPeerDependencies",
     ":rebaseStalePrs",
     "helpers:pinGitHubActionDigests",
-    "helpers:pinGitHubActionDigestsToSemver"
+    "helpers:pinGitHubActionDigestsToSemver",
+    "github>wyrihaximus/renovate-config//internal/labels"
   ]
 }
