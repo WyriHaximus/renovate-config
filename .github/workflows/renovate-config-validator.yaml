@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Pass files through output
-        uses: suzuki-shunsuke/github-action-renovate-config-validator@v1.1.0
+        uses: suzuki-shunsuke/github-action-renovate-config-validator@c22827f47f4f4a5364bdba19e1fe36907ef1318e # v1.1.1
         with:
           config_file_path: |
             default.json
