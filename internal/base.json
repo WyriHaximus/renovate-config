@@ -14,5 +14,12 @@
     "helpers:pinGitHubActionDigests",
     "helpers:pinGitHubActionDigestsToSemver",
     "github>wyrihaximus/renovate-config//internal/labels"
+  ],
+  "packageRules": [
+    {
+      "extends": [
+        "github>wyrihaximus/renovate-config//internal/do-not-update-tool-constraints"
+      ]
+    }
   ]
 }
