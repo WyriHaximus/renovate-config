@@ -3,6 +3,9 @@
   "addLabels": [
     "PHP 🐘"
   ],
+  "postUpdateOptions": [
+    "composerWithAll"
+  ],
   "packageRules": [
     {
       "extends": [
