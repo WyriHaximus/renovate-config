@@ -5,11 +5,16 @@ on:
   push:
     branches:
       - main
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
 jobs:
   validate:
     name: Renovate Config Validator
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Pass files through output
         uses: suzuki-shunsuke/github-action-renovate-config-validator@v1.1.0
         with:
@@ -22,3 +27,28 @@ jobs:
             php-package.json
             php-project-self-hosted-runner.json
             php-project.json
+  ensure-readme-is-up-to-date:
+    name: Ensure README is up to date
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/wyrihaximusnet/php:8.5-nts-alpine-dev-root
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Move current README
+        run: |
+          mv README.md README.current.md
+      - name: Generate README.md
+        run: |
+          make generate
+      - name: Check that the files are the exact same
+        uses: LouisBrunner/diff-action@ab382b451dbb2333cbb4db158d211d07fb5c82c6 # v3.0.0
+        with:
+          old: README.current.md
+          new: README.md
+          mode: strict
+          tolerance: same
+          token: ${{ secrets.GITHUB_TOKEN }}
+          notify_check: true
+          notify_issue: "failure"
+          sticky_comment: true
+          title: README

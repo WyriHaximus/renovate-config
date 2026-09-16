@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "dantleech/docbot": "^0.3.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "make generate-readme || true"
+        ],
+        "post-update-cmd": [
+            "make generate-readme || true"
+        ]
+    }
+}
